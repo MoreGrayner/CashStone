@@ -1,0 +1,55 @@
+game:
+  # 채굴 시간 (초)
+  mining-time: 600
+  # 전투 시간 (초)
+  battle-time: 1200
+
+# 위치 설정 (서버 관리자가 게임 내에서 설정)
+locations:
+  waiting-room: "world,0,70,0,0,0"
+  mining-area: "flat,100,60,100,0,0"
+  battle-arena: "world,-100,80,-100,0,0"
+
+
+
+
+### [필독!!!]아래의 설정은 적용되지 않습니다(하드코딩되어있음) 설정치 설명용으로 놔둔 섹션들입니다.
+
+
+
+
+
+# 광물별 캐시 보상
+mining-rewards:
+  coal: 10
+  copper: 15
+  iron: 25
+  gold: 40
+  redstone: 30
+  lapis: 35
+  diamond: 100
+  emerald: 150
+  ancient-debris: 300
+
+# 상점 아이템 가격
+shop-prices:
+  # 필수품
+  oak-sapling: 100
+  lava-bucket: 100
+  water-bucket: 150
+  obsidian: 300
+  mining-level-1: 500
+  mining-level-2: 1000
+  mining-level-3: 1500
+  attack-right: 300
+
+  # 버프
+  rabbit-foot: 800
+  anvil: 600
+  iron-sword: 700
+
+  # 특수 아이템
+  time-accelerator: 2000
+  wind-charge: 400
+  marker: 350
+  cannon: 1200

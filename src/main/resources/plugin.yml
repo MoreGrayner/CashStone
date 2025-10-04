@@ -1,0 +1,42 @@
+name: Cash-Stone
+version: BETA
+main: io.github.moregrayner.miniame.cashStone.CashStone
+api-version: 1.21
+author: MoreGrayner
+description: 석전 게임 플러그인
+
+commands:
+  stonewar:
+    description: StoneWar 메인 명령어
+    aliases: [sw]
+    usage: /stonewar [start|end|join|leave|status|setlocation]
+
+  assign:
+    description: 팀 배정 명령어
+    usage: /assign <팀 수>
+    permission: stonewar.admin
+
+  shop:
+    description: 상점 열기
+    usage: /shop
+
+  cash:
+    description: 캐시 관리
+    usage: /cash [give|set|top]
+    aliases: [money]
+
+  team:
+    description: 팀 정보 및 관리
+    usage: /team [info|appeal]
+
+permissions:
+  stonewar.admin:
+    description: StoneWar 관리자 권한
+    default: op
+
+  stonewar.user:
+    description: StoneWar 일반 사용자 권한
+    default: true
+
+depend: []
+softdepend: []
